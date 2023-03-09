@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+}
+
+.dropdown-item:hover{
+    color: #000000 !important;
+}

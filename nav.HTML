@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=eddge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>TVersus</title>
+    <link rel="shortcut icon" href="images/logo.png"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="nav.css"/>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <!--icono-->
+            <a class="navbar-brand ms-0" href="#">
+                <img class="m-t-21" src="images/logo.png" alt="no" width="70">
+                <span class="text-white">TVersus</span>
+            </a>
+
+            <!--boton menu colapsable-->
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarScroll" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!--elem menu colapsable-->
+            <div class="collapse navbar-collapse" id="menu">
+                <!--links-->
+                <ul class="navbar-nav ms-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">TORNEOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">TIENDA</a>
+                    </li>
+                    <!--separador-->
+                    <li class="nav-item ms-5 mb-3">
+                    </li>
+                </ul>
+                <!--barra de buscar-->
+                
+                <form class="d-flex ms-4" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+                <!--separador-->
+
+                <span class="navbar-nav nav-item mb-3"></span>
+
+                <!--perfil-->
+                <span class="navbar-nav nav-item ms-auto"></span>
+                <span class="navbar-nav nav-item dropdown ms-4 me-4">
+                    <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        User
+                        <img class="m-t-21" src="images/user.png" alt="no" width="30" height="30">
+                    </a>
+                    <!--menu desplegable-->
+                    <ul class="dropdown-menu bg-dark">
+                        <li><a class="dropdown-item text-white" href="#">View profile</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Edit profile</a></li>
+                        <li><hr class="dropdown-divider bg-danger"></li>
+                        <li><button class="dropdown-item text-white" href="#">Logout 
+                        <img class="m-t-21" src="images/logout.png" alt="no" width="20" height="20">
+                        </button></li>
+                    </ul>
+                </span>
+
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
