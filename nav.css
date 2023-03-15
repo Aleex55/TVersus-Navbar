@@ -1,10 +1,22 @@
-@media (min-width: 768px) {
+
+@media (min-width: 770px) {
     .navbar-nav {
         float: right;
-        margin: 0;
+        margin: 0px;
     }
 }
 
 .dropdown-item:hover{
     color: #000000 !important;
+}
+
+
+.btn.btn-search{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-search{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
