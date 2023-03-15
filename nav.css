@@ -1,8 +1,14 @@
-
-@media (min-width: 770px) {
+@media (min-width: 768px) {
     .navbar-nav {
         float: right;
         margin: 0px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .center-on-collapsed{
+        text-align: center;
     }
 }
 
